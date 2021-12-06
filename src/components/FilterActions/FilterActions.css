@@ -1,0 +1,19 @@
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 6px;
+
+  width: 200px;
+}
+
+.sortPrices,
+.sortSizes,
+.sortBrands,
+.sortTypes {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 6px;
+
+  text-align: left;
+}

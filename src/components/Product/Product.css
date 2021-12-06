@@ -1,0 +1,41 @@
+.productItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 3px;
+  margin: 2px 3px;
+
+  text-align: left;
+  border: 1px solid #2874f0;
+  border-radius: 10px;
+  color: #2874f0;
+}
+
+.productType {
+  text-align: right;
+  color: gray;
+}
+
+.productItem > img {
+  width: 150px;
+  object-fit: contain;
+  margin: 2px auto;
+}
+
+.productBrand {
+  text-align: center;
+}
+
+.productSizes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+
+  padding: 2px;
+  margin: 0 2px 2px;
+}
