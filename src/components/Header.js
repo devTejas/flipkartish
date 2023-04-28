@@ -12,9 +12,7 @@ export default function Header() {
       }}
     >
       <h1>FLIPKART CLONE</h1>
-      <p style={{ float: "right", fontWeight: "bold" }}>
-        Machine Coding Round - Built in 3hrs
-      </p>
+      <p style={{ float: "right", fontWeight: "bold" }}></p>
     </header>
   );
 }
